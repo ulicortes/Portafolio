@@ -1,0 +1,92 @@
+.proyectos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+.proyecto_card {
+    width: 25vw;
+    height: 25vh;
+    border-radius: 25px;
+    // padding: 1rem;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    // border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.contenido {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    background: linear-gradient(to bottom, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    transition: 0.5s;
+    opacity: 0;
+    margin-top: 15vh;
+    color: #000;
+}
+.proyecto_card:hover .contenido{
+    opacity: 1;
+    margin-top: 0;
+}
+
+.planetas_card {
+    background: url('../../capturas/Captura\ de\ pantalla_2024-07-16_18-54-21.png');
+}
+
+.canchas_card {
+    background: url('../../capturas/canchas.png');
+}
+
+.camisetas_card {
+    background: url('../../capturas/camisetas.png');
+}
+
+.camisetas_card,
+.canchas_card,
+.planetas_card {
+    background-size: contain;
+    background-repeat: no-repeat;
+    // border-radius: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.proyecto_card .container:hover .camisetas_card,
+.proyecto_card .container:hover .canchas_card,
+.proyecto_card .container:hover .planetas_card {
+    transform: scale(1.2);
+}
+
+.pagina h1 {
+    // color: #ffffff;
+    margin-bottom: 5vh;
+    font-size: 3.5rem;
+    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: none;
+}
+h3 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+p {
+    width: 80%;
+}
