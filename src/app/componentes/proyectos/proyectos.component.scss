@@ -5,7 +5,18 @@
     justify-content: space-evenly;
     width: 80vw;
 }
-
+.leng-proy {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+}
+.tec {
+    width: fit-content;
+    height: 5vh;
+    // border-radius: 20px;
+}
 .proyecto_card {
     width: 25vw;
     height: 25vh;
