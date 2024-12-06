@@ -1,68 +1,152 @@
 .proyectos {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 80vw;
+    width: 100vw;
+    align-content: center;
+    padding-top: 10vh;
+    // background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    // padding: 0rem 2rem;
+    border-radius: 50px;
 }
+
 .leng-proy {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 5vh;
+    margin-top: 2vh;
     justify-content: space-evenly;
 }
+
 .tec {
     width: fit-content;
     height: 5vh;
     // border-radius: 20px;
 }
+
 .proyecto_card {
-    width: 25vw;
-    height: 25vh;
+    // width: 25vw;
+    height: fit-content;
     border-radius: 25px;
     // padding: 1rem;
     text-decoration: none;
-    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    // transition: 0.5s;
 }
+
 .container {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
     // border-radius: 10px;
     position: relative;
     overflow: hidden;
     transition: 0.5s;
 }
+
 .contenido {
-    width: 100%;
-    height: 100%;
     position: relative;
+    width: fit-content;
+    // height: fit-content;
+    backdrop-filter: blur(15px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     vertical-align: middle;
-    background: linear-gradient(to bottom, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
-    transition: 0.5s;
+    color: #1f1f1f;
+    // background: rgba(243, 255, 130, 1);
+    background: linear-gradient(to right,
+    rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    transition: all ease-in-out .1s;
+    padding: 10px;
     opacity: 0;
-    margin-top: 15vh;
-    color: #000;
+    // margin-top: 0vh;
+    right: 23vh;
+    border-radius: 15px;
+    // border-width: 3px;
+    // border-style: solid;
+    // border-color: rgba(130, 255, 136, 0.7);
 }
-.proyecto_card:hover .contenido{
+
+section {
+    width: 60vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    color: #ffffff;
+    // border-left-width: 3px;
+    // border-right-width: 3px;
+    // border-top-width: 0;
+    // border-bottom-width: 0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: none;
+    border-radius: 30px;
+    transition: border-image ease-in-out 2.5s;
+}
+
+.descripcion {
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: width ease-in 0.1s, opacity ease-in-out 0.7s;
+}
+
+section:hover .descripcion {
+    // display: flex;
     opacity: 1;
-    margin-top: 0;
+    width: 35%;
+    margin: 0 1vw;
+}
+
+img {
+    width: 20vw;
+}
+.proyecto_card:hover img{
+    opacity: 0.6;
+}
+
+.proyecto_card:hover .contenido {
+    opacity: 1;
+}
+
+section:hover {
+    // background: linear-gradient(to bottom,
+    // #1f1f1f, rgba(243, 255, 130, 0)),
+    // linear-gradient(to right,
+    //         rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    border-image:
+        linear-gradient(to right,
+            rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1)) 0 1 100%;
 }
 
 .planetas_card {
-    background: url('../../capturas/Captura\ de\ pantalla_2024-07-16_18-54-21.png');
+    background-image: url('../../../assets/capturas/Captura\ de\ pantalla_2024-07-16_18-54-21.png');
+
 }
 
 .canchas_card {
-    background: url('../../capturas/canchas.png');
+    background: url('../../../assets/capturas/canchas.png');
 }
 
 .camisetas_card {
-    background: url('../../capturas/camisetas.png');
+    background: url('../../../assets/capturas/camisetas.png');
 }
 
 .camisetas_card,
@@ -79,6 +163,7 @@
     object-fit: cover;
     transition: 0.5s;
 }
+
 .proyecto_card .container:hover .camisetas_card,
 .proyecto_card .container:hover .canchas_card,
 .proyecto_card .container:hover .planetas_card {
@@ -90,14 +175,20 @@
     margin-bottom: 5vh;
     font-size: 3.5rem;
     background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     background-clip: none;
 }
+
 h3 {
-    font-size: 1.5rem;
-    text-decoration: underline;
+    font-size: 1.2rem;
+    // text-decoration: underline;
 }
-p {
-    width: 80%;
+
+a {
+    height: fit-content;
 }
+
+// p {
+//     width: 80%;
+// }

@@ -12,7 +12,9 @@
     align-content: center;
     vertical-align: middle;
     width: 100vw;
-    height: 120vh;
+    padding-top: 10vh;
+    // height: 80vh;
+    // background: rgba(130, 255, 136, 0.7);
 }
 
 .separador {
@@ -43,6 +45,9 @@
 
 .pagina {
     color: #ffffff;
+    // color: #1f1f1f;
+    // background: rgba(130, 255, 136, 0.7);
+    // background: linear-gradient(to bottom, #1f1f1f, rgba(130, 255, 136, 0.7));
 }
 
 div img {
@@ -56,14 +61,20 @@ div img:hover {
 
 .sobre-mi {
     width: 50vw;
-    height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
+    // background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    // padding: 3rem 10rem;
+    // border-radius: 50px;
 }
 
+// .sobre-mi:hover {
+//     padding: 3rem 10rem
+// }
+
 h1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -81,6 +92,13 @@ h1 {
 p {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    transition: all ease-in-out 10s;
+}
+
+p:hover {
+    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .ordenar {
@@ -93,6 +111,6 @@ p {
 }
 
 .texto {
-    text-align: justify;
+    text-align: left;
     text-align-last: left;
 }

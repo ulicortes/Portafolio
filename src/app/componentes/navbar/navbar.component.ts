@@ -11,7 +11,7 @@ import { DOCUMENT } from '@angular/common';
 export class NavbarComponent {
   // constructor(private document: Document) {}
   ngOnInit() {
-    // this.active();
+    this.active();
   }
   active() {
     let as = document.body.getElementsByTagName('a');
