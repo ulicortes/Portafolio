@@ -1,18 +1,14 @@
-<div class="contactos">
-    <!-- <button> -->
+<div class="contactos" *transloco="let t">
         <a href="https://github.com/ulicortes" target="_blank">
             <img src="../../../assets/github-mark-white.png" alt="gh">
             <div>
-                <h4>Mi perfil de GitHub</h4>
+                <h4>{{ t("gh_profile") }}</h4>
             </div>
         </a>
-    <!-- </button> -->
-    <!-- <button (click)="copiar(msg)"> -->
         <div class="mailButton" (click)="copiar(msg)">
             <img src="../../../assets/mail_icono.svg" alt="mail">
             <div class="card-cuerpo.">
-                <h4 id="msg" #msg>Copiar mail</h4>
+                <h4 id="msg" #msg>{{ t("email") }}</h4>
             </div>
         </div>
-    <!-- </button> -->
 </div>

@@ -1,0 +1,22 @@
+{
+    "h3_menu": "Desarrollo fullstack",
+    "gh_profile": "Perfil GitHub",
+    "email": "Copiar email",
+    "main": "Principal",
+    "about_me": "Sobre mi",
+    "projects": "Proyectos",
+    "personal": "Personal",
+    "personal_txt": "Actualmente, estoy cursando el último año de la Tecnicatura en Desarrollo de Aplicaciones Informáticas en la Universidad Nacional del Centro (Tandil). Durante mi formación, he adquirido conocimientos sólidos en buenas prácticas de programación y técnicas que me permiten escribir código limpio y eficiente.",
+    "personal_txt_2": "Estoy comprometido con el aprendizaje continuo y abierto a nuevos desafíos que me permitan crecer como desarrollador.",
+    "skills": "Skills",
+    "skills_txt": "Aunque tengo experiencia tanto en desarrollo frontend como backend, mi preferencia va hacia el lado del frontend debido a mi mayor exposición a proyectos en este ámbito. A lo largo de estos años, he desarrollado proyectos académicos y personales que me han permitido aplicar y consolidar mis conocimientos, utilizando tecnologías como Angular, Next.js, y React.",
+    "idiomas": "Idiomas",
+    "idiomas_txt": "Tengo un nivel intermedio de inglés, además de ser hablante nativo de español, lo que me permite trabajar con documentación técnica y colaborar en entornos multiculturales.",
+    "visit": "Visitar",
+    "descr_p1": "Pagina simple en donde se pueden ver algunos datos de los planetas del sistema solar",
+    "descr_p2": "Sitio para buscar interesados en jugar un partido de futbol",      
+    "descr_p3": "Proyecto universitario simulando un ecommerce de camisetas de basquet",
+    "choose_lang": "Idioma",
+    "en": "Ingles",
+    "es": "Español"       
+}

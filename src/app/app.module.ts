@@ -8,6 +8,10 @@ import { MenuComponent } from './componentes/menu/menu.component';
 import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TranslocoRootModule } from './transloco-root.module';
+import { SwitcherComponent } from './componentes/switcher/switcher.component';
+
 
 @NgModule({
   declarations: [
@@ -16,11 +20,14 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
     MenuComponent,
     SobreMiComponent,
     ProyectosComponent,
-    ContactoComponent
+    ContactoComponent,
+    SwitcherComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    TranslocoRootModule
   ],
   providers: [
     provideClientHydration()

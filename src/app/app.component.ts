@@ -7,12 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Ulises Cortes';
-  // movimiento() {
-  //   let win = window.innerHeight;
-  //   let posicion = document.documentElement.scrollTop;
-    
-  //   if(posicion > win) {
-  //     console.log("segunda pagina");
-  //   }
-  // }
+
 }

@@ -13,8 +13,6 @@
     vertical-align: middle;
     width: 100vw;
     padding-top: 10vh;
-    // height: 80vh;
-    // background: rgba(130, 255, 136, 0.7);
 }
 
 .separador {
@@ -29,7 +27,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // margin-top: 2rem;
     height: 20vh;
 
 }
@@ -45,9 +42,6 @@
 
 .pagina {
     color: #ffffff;
-    // color: #1f1f1f;
-    // background: rgba(130, 255, 136, 0.7);
-    // background: linear-gradient(to bottom, #1f1f1f, rgba(130, 255, 136, 0.7));
 }
 
 div img {
@@ -64,14 +58,7 @@ div img:hover {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    // background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
-    // padding: 3rem 10rem;
-    // border-radius: 50px;
 }
-
-// .sobre-mi:hover {
-//     padding: 3rem 10rem
-// }
 
 h1 {
     font-size: 2rem;
@@ -95,12 +82,6 @@ p {
     transition: all ease-in-out 10s;
 }
 
-p:hover {
-    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .ordenar {
     display: flex;
     flex-direction: row;
@@ -113,4 +94,8 @@ p:hover {
 .texto {
     text-align: left;
     text-align-last: left;
+}
+
+h1 {
+    justify-self: center;
 }

@@ -1,6 +1,5 @@
-<nav class="gabarito-nav" (click)="active()">
-    <a routerLink=""><li>Principal</li></a>
-    <a routerLink="info"><li>Sobre mi</li></a>
-    <a routerLink="proyectos" ><li>Proyectos</li></a>
-    <!-- <a routerLink="contacto" ><li>Contacto</li></a> -->
+<nav class="gabarito-nav" *transloco="let t">
+    <a class="activo" routerLink=""><li>{{ t('main') }}</li></a>
+    <a class="activo" routerLink="info"><li>{{ t('about_me') }}</li></a>
+    <a class="activo" routerLink="proyectos" ><li>{{ t('projects') }}</li></a>
 </nav>

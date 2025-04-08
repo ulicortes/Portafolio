@@ -1,0 +1,20 @@
+div {
+    position: absolute;
+    right: 1vw;
+    top: 3vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+select {
+    width: fit-content;
+    // border: 3px solid green;
+    background-color: white;
+    padding: 4px;
+    pointer-events: painted;
+    border-radius: 10px;
+}
+select:focus {
+    outline: none
+}

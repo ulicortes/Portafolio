@@ -1,153 +1,17 @@
 <div id="fondo"></div>
-<div class="pagina">
+<div class="pagina" *transloco="let t">
     <div class="contenido">
         <div class="sobre-mi">
-            <!-- <h1>Sobre mi</h1> -->
             <div class="texto">
-                <h1>Personal</h1>
-                <p>Actualmente, estoy cursando el último año de la Tecnicatura en Desarrollo de Aplicaciones
-                    Informáticas en la Universidad Nacional del Centro (Tandil). Durante mi formación, he adquirido
-                    conocimientos sólidos en buenas prácticas de programación y técnicas que me permiten escribir código
-                    limpio y eficiente.</p>
-                    <p>Estoy comprometido con el aprendizaje continuo y abierto a nuevos desafíos que me permitan crecer
-                        como desarrollador.</p>
-                <h1>Skills</h1>
-                <p>Aunque tengo experiencia tanto en desarrollo frontend como backend, mi preferencia va hacia el lado
-                    del frontend
-                    debido a mi mayor exposición a proyectos en este ámbito. A lo largo de estos años, he desarrollado
-                    proyectos académicos y personales que me han permitido aplicar y consolidar mis conocimientos,
-                    utilizando tecnologías como Angular, Next.js, y React.</p>
-                <h1>Idiomas</h1>
-                <p>Tengo un nivel intermedio de inglés, además de ser hablante nativo de español, lo que me permite
-                    trabajar con documentación técnica y colaborar en entornos multiculturales.
-                </p>
+                <h1>{{ t('personal') }}</h1>
+                <p>{{ t('personal_txt') }}</p>
+                <p>{{ t('personal_txt_2') }}</p>
+                <h1>{{ t('skills') }}</h1>
+                <p>{{ t('skills_txt') }}</p>
+                <h1>{{ t('idiomas') }}</h1>
+                <p>{{ t('idiomas_txt') }} </p>
 
-                <!-- <p>Estoy comprometido con el aprendizaje continuo y abierto a nuevos desafíos que me permitan crecer
-                    como desarrollador.</p> -->
             </div>
-            <!-- <div class="texto">
-                <p>Actualmente estoy cursando el ultimo año de mi tecnicatura en la Universidad Nacional del Centro en
-                    Tandil. En estos años he podido aprender tecnicas y buenas practicas que me han llevado a
-                    hacer codigo de mejor manera.</p>
-                <p>Tengo un nivel intermedio de ingles, ademas del castellano que es mi lengua nativa.
-                </p>
-                <p>Me siento comodo tanto del lado del frontend como del backend, aunque mi preferencia va para
-                    el lado del frontend, pura y exclusivamente porque la mayoria de cosas que he hecho estan enfocadas
-                    a ese lado. Lo que he desarrolado a traves de estos
-                    años son proyectos personales y academicos con el fin de poner en practica todo el conocimiento
-                    adquirido a lo largo de estos años.</p>
-            </div> -->
-
-            <!-- ## Sobre Mí
-
-            Actualmente, estoy cursando mi tecnicatura en [Nombre de la Universidad], donde he tenido la 
-            oportunidad de aprender y trabajar con tecnologías como [Menciona las tecnologías que has aprendido]. 
-            Mis asignaturas favoritas incluyen [Asignaturas Favoritas],  
-            donde he podido profundizar en [Aspectos o Tecnologías que te interesan].
-
-
-            ¡Hola! Soy [Tu Nombre], un apasionado/a [Tu Profesión] con más de [X] años de experiencia en [Tu Campo].
-            Mi pasión por [Tu Área de Interés] comenzó cuando [Breve Historia Personal o Profesional]. Desde
-            entonces, he tenido la oportunidad de trabajar en una variedad de proyectos emocionantes, incluyendo
-            [Proyecto Destacado] y [Proyecto Destacado].
-
-            Me gradué de [Universidad] con un título en [Tu Carrera] y he continuado desarrollando mis habilidades
-            en [Competencias Relevantes]. Soy experto/a en [Habilidades Técnicas], y también valoro mucho el
-            [Habilidades Blandas, como el trabajo en equipo y la comunicación].
-
-            Uno de mis logros más orgullosos ha sido [Logro o Reconocimiento]. Siempre busco nuevas oportunidades
-            para aprender y crecer, y mi meta a largo plazo es [Meta a Futuro].
-
-            En mi tiempo libre, disfruto [Hobbies o Intereses Personales], y participo activamente en [Actividades
-            de Voluntariado o Extracurriculares].
-
-            Si quieres saber más sobre mí o mis proyectos, no dudes en ponerte en contacto a través de [Correo
-            Electrónico] o seguirme en [Redes Sociales].
-
-            ¡Gracias por visitar mi portafolio! -->
-
         </div>
-        <!-- <div class="separador"></div> -->
-        <!-- <div class="lenguajes">
-            <h1>Tecnologias que he utilizado</h1> 
-            html, css, react, sass, apache, next
-             postgre, smarty, 
-            <div class="len-cnt">
-                <div>
-                    <h3 class="titulo">Lenguajes de programacion</h3>
-                    <div class="ordenar">
-                        <div>
-                            <img class="tec" id="php" src="../../../assets/lenguajes/php.png" alt="">
-                            <h3>PHP</h3>
-                        </div>
-                        <div>
-                            <img class="tec" id="typescript" src="../../../assets/lenguajes/typesrcipt.png" alt="">
-                            <h3>Typescript</h3>
-                        </div>
-                        <div>
-                            <img class="tec" id="java" src="../../../assets/lenguajes/java.jpg" alt="">
-                            <h3>Java</h3>
-                        </div>
-                        <div>
-                            <img class="tec" id="js" src="../../../assets/lenguajes/javascript.png" alt="">
-                            <h3>JavaScript</h3>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="titulo">Frameworks y librerías</h3>
-                    <div class="ordenar">
-                        <div>
-                            <img class="tec" id="react" src="../../../assets/lenguajes/react.png" alt="">
-                            <h3>React</h3>
-                        </div>
-                        <div>
-                            <img class="tec" id="next" src="../../../assets/lenguajes/next.jpg" alt="">
-                            <h3>Next</h3>
-                        </div>
-                        <div>
-                            <img class="tec" id="smarty" src="../../../assets/lenguajes/smarty.png" alt="">
-                            <h3>Smarty</h3>
-                        </div> 
-                    </div>
-                </div>
-                <div>
-                    <h3 class="titulo">Bases de datos</h3>
-                    <div class="ordenar">
-                        <div>
-                            <img class="tec" id="postgres" src="../../../assets/lenguajes/mysql.png" alt="">
-                            <h3>MySQL</h3>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="titulo">Herramientas de dearrollo</h3>
-                    <div class="ordenar">
-                        <div>
-                            <img class="tec" id="apache" src="../../../assets/lenguajes/apache.png" alt="">
-                            <h3>Apache</h3>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="titulo">Tecnologias de marcado y estilo</h3>
-                    <div class="ordenar">
-                        <div>
-                            <img class="tec" id="html" src="../../../assets/lenguajes/html.png" alt="">
-                            <h3>HTML</h3>
-                        </div>
-                        <div>
-                            <img class="tec" id="css" src="../../../assets/lenguajes/css.png" alt="">
-                            <h3>CSS</h3>
-                        </div>
-
-                        <div>
-                            <img class="tec" id="sass" src="../../../assets/lenguajes/sass.png" alt="">
-                            <h3>Sass</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </div>
 </div>

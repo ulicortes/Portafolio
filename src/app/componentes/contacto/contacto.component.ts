@@ -17,7 +17,6 @@ export class ContactoComponent {
     document.execCommand("copy");
     document.body.removeChild(tempInput);
 
-    // let msg = document.getElementById('#msg');
     msg.innerText = "Mail copiado!";
     setTimeout(() => {
       msg.innerText = "Copiar mail"
