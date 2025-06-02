@@ -1,14 +1,30 @@
 <div class="contactos" *transloco="let t">
+    <h1>
+        < {{ t('contact') }} />
+    </h1>
+    <div class="cnt">
         <a href="https://github.com/ulicortes" target="_blank">
-            <img src="../../../assets/github-mark-white.png" alt="gh">
-            <div>
-                <h4>{{ t("gh_profile") }}</h4>
-            </div>
+            <img src="../../../assets/github-mark.png" alt="gh">
+            <h4>{{ t("gh_profile") }}</h4>
+        </a>
+        <a href="https://www.linkedin.com/in/ulisescortes/" target="_blank">
+            <img src="../../../assets/icons8-linkedin-96.png" alt="gh">
+            <h4>{{ t("linkedin") }}</h4>
         </a>
         <div class="mailButton" (click)="copiar(msg)">
             <img src="../../../assets/mail_icono.svg" alt="mail">
-            <div class="card-cuerpo.">
-                <h4 id="msg" #msg>{{ t("email") }}</h4>
-            </div>
+            <h4 id="msg" #msg>{{ t("email") }}</h4>
         </div>
+        <h3>{{ t("cv") }}</h3>
+        <div class="resumee">
+            <a href="../../../assets/CV_UlisesCortes_ES.pdf" download="CV_UlisesCortes_ES.pdf" target="_blank">
+                <img src="../../../assets/flecha-hacia-abajo.png" alt="gh">
+                <h4>{{ t("es") }}</h4>
+            </a>
+            <a href="../../../assets/CV_UlisesCortes_EN.pdf" download="CV_UlisesCortes_ES.pdf" target="_blank">
+                <img src="../../../assets/flecha-hacia-abajo.png" alt="gh">
+                <h4>{{ t("en") }}</h4>
+            </a>
+        </div>
+    </div>
 </div>

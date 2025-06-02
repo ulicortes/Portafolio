@@ -1,17 +1,25 @@
-<div id="fondo"></div>
 <div class="pagina" *transloco="let t">
     <div class="contenido">
-        <div class="sobre-mi">
-            <div class="texto">
-                <h1>{{ t('personal') }}</h1>
-                <p>{{ t('personal_txt') }}</p>
-                <p>{{ t('personal_txt_2') }}</p>
-                <h1>{{ t('skills') }}</h1>
-                <p>{{ t('skills_txt') }}</p>
-                <h1>{{ t('idiomas') }}</h1>
-                <p>{{ t('idiomas_txt') }} </p>
-
-            </div>
-        </div>
+        <section>
+            <h1>
+                < {{ t('personal') }} />
+            </h1>
+            <p>{{ t('personal_txt') }}</p>
+            <p>{{ t('personal_txt_2') }}</p>
+        </section>
+        <div class="separador"></div>
+        <section>
+            <h1>
+                < {{ t('skills') }} />
+            </h1>
+            <p>{{ t('skills_txt') }}</p>
+        </section>
+        <div class="separador"></div>
+        <section>
+            <h1>
+                < {{ t('idiomas') }} />
+            </h1>
+            <p>{{ t('idiomas_txt') }} </p>
+        </section>
     </div>
 </div>

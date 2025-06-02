@@ -1,3 +1,4 @@
+
 /* You can add global styles to this file, and also import other style files */
 * {
     margin: 0;
@@ -5,12 +6,12 @@
 }
 
 body {
-    // background: linear-gradient(to right bottom, #1e572f, #9effab);
-    // background-color: #1F1F1F;
+    // background: linear-gradient(to right bottom, #124220, #33e44b);
+    background-color: #000000;
     // background-color: #9effab;
     width: 100vw;
     height: 100vh;
-    background: #161616;
+    // background: #131313;
     // background: rgb(169, 169, 169);
     // radial-gradient(#1f1f1f 85%, rgb(53, 53, 53) 85%, rgb(53, 53, 53) 100%);
     // linear-gradient(to right bottom, rgba(130, 255, 136, 0.7) 0%, #1f1f1f 12%, #1f1f1f 88%, rgba(243, 255, 130, 1) 100%);
@@ -55,9 +56,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100vw;
+    // width: 100vw;
     min-height: 100vh;
-    vertical-align: middle;
+    // vertical-align: middle;
     animation-name: ppal;
     animation-duration: 0.7s;
 }

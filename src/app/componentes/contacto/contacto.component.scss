@@ -1,10 +1,33 @@
 .contactos {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cnt {
+    width: 20vw;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+}
+
+.resumee {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 35vw;
-    position: relative;
-    bottom: -25vh
+    width: 100%;
+}
+
+.resumee a {
+    width: fit-content;
+    padding: 1rem;
 }
 
 button {
@@ -13,24 +36,39 @@ button {
     border: 1px solid white;
     border-radius: 30px;
     background: rgba(180, 130, 255, 0.1);
-    
-    
 }
-a:hover, .mailButton:hover {
+
+a:hover,
+.mailButton:hover {
     transform: scale(1.09);
 }
-a, .mailButton {
+
+a,
+.mailButton {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
     vertical-align: middle;
     text-decoration: none;
-    color: white;
+    color: #000000;
     transition: 0.5s all;
     font-size: 1rem;
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 30px;
+    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 0.7));
+    padding: 1rem 0;
 }
+
 img {
     height: 3rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: none;
 }

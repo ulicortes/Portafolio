@@ -1,10 +1,13 @@
 {
     "h3_menu": "Desarrollo fullstack",
     "gh_profile": "Perfil GitHub",
+    "linkedin": "Perfil Linkedin",
     "email": "Copiar email",
+    "cv": "Descarga mi cv",
     "main": "Principal",
     "about_me": "Sobre mi",
     "projects": "Proyectos",
+    "contact": "Contacto",
     "personal": "Personal",
     "personal_txt": "Actualmente, estoy cursando el último año de la Tecnicatura en Desarrollo de Aplicaciones Informáticas en la Universidad Nacional del Centro (Tandil). Durante mi formación, he adquirido conocimientos sólidos en buenas prácticas de programación y técnicas que me permiten escribir código limpio y eficiente.",
     "personal_txt_2": "Estoy comprometido con el aprendizaje continuo y abierto a nuevos desafíos que me permitan crecer como desarrollador.",
