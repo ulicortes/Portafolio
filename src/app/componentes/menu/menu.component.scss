@@ -1,33 +1,71 @@
-.pagina {
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100vw;
+@media (min-width: 200px) {
+    .pagina {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        width: 100vw;
+    }
+
+    .pagina h1 {
+        font-size: 5rem;
+    }
+
+    .pagina h3 {
+        font-size: 2rem;
+    }
+
+    .pagina h4 {
+        font-size: 1.2rem;
+    }
+
+    .pagina h3,
+    .pagina h4 {
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    #pc {
+        background-image: url('../../../assets/pc_small.png');
+        background-size: cover;
+        width: 100vw;
+        height: 40vh;
+    }
 }
 
-.pagina h1 {
-    font-size: 7rem;
-}
+@media (min-width: 500px) {
+    .pagina {
+        color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100vw;
+    }
 
-.pagina h3 {
-    font-size: 2rem;
-}
+    .pagina h1 {
+        font-size: 7rem;
+    }
 
-.pagina h4 {
-    font-size: 1.2rem;
-}
+    .pagina h3 {
+        font-size: 2rem;
+    }
 
-.pagina h3,
-.pagina h4 {
-    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
+    .pagina h4 {
+        font-size: 1.2rem;
+    }
 
-#pc {
-    background-image: url('../../../assets/pc.png');
-    background-size: cover;
-    width: 50vw;
-    height: 50vh;
+    .pagina h3,
+    .pagina h4 {
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+
+    #pc {
+        background-image: url('../../../assets/pc.png');
+        background-size: cover;
+        width: 50vw;
+        height: 50vh;
+    }
 }

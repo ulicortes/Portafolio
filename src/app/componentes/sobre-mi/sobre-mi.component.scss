@@ -1,59 +1,126 @@
-.contenido {
-    width: 40vw;
-    height: 120vh;
-    display: flex;
-    flex-direction: column;
-    // flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    text-align: left;
-    margin-top: 10vh;
+@media (min-width: 200px) {
+    .contenido {
+        width: 80vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        text-align: left;
+        margin-top: 10vh;
+    }
+
+    section {
+        padding: 1rem;
+        border-radius: 50px;
+        width: 80vw;
+        height: fit-content;
+        align-items: center;
+        align-content: center;
+    }
+
+    .separador {
+        width: 8vw;
+        height: 0.5vh;
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    }
+
+    .pagina {
+        color: #ffffff;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: none;
+        margin-bottom: 0.5vw;
+    }
+
+    .titulo {
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: none;
+    }
+
+    p {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        transition: all ease-in-out 10s;
+    }
+
+    h1 {
+        justify-self: center;
+    }
 }
 
-section {
-    padding: 1rem;
-    border-radius: 50px;
-    width: 40vw;
-    height: fit-content;
-    align-items: center;
-    align-content: center;
-}
+@media (min-width: 500px) {
+    .contenido {
+        width: 40vw;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        text-align: left;
+        margin-top: 10vh;
+    }
 
-.separador {
-    width: 4vw;
-    height: 1vh;
-    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
-}
+    section {
+        padding: 1rem;
+        border-radius: 50px;
+        width: 40vw;
+        height: fit-content;
+        align-items: center;
+        align-content: center;
+    }
 
+    .separador {
+        width: 4vw;
+        height: 1vh;
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+    }
 
-.pagina {
-    color: #ffffff;
-}
+    h1 {
+        font-size: 3.5rem;
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: none;
+        margin-bottom: 0.5vw;
+    }
 
-h1 {
-    font-size: 3.5rem;
-    // color: black;
-    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: none;
-    margin-bottom: 0.5vw;
-}
+    .pagina {
+        color: #ffffff;
+    }
 
-.titulo {
-    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: none;
-}
+    h1 {
+        font-size: 2.5rem;
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: none;
+        margin-bottom: 0.5vw;
+    }
 
-p {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    transition: all ease-in-out 10s;
-}
+    .titulo {
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: none;
+    }
 
-h1 {
-    justify-self: center;
+    p {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        transition: all ease-in-out 10s;
+    }
+
+    h1 {
+        justify-self: center;
+    }
 }

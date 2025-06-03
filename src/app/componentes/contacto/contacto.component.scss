@@ -1,74 +1,153 @@
-.contactos {
-    width: 100vw;
-    height: 100vh;
-    align-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+@media (min-width: 200px) {
+    .contactos {
+        width: 100vw;
+        height: 100vh;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cnt {
+        width: 90vw;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-self: center;
+        align-items: center;
+    }
+
+    .resumee {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .resumee a {
+        width: fit-content;
+        padding: 1rem;
+    }
+
+    button {
+        width: 14vw;
+        height: 10vh;
+        border: 1px solid white;
+        border-radius: 30px;
+        background: rgba(180, 130, 255, 0.1);
+    }
+
+    a:hover,
+    .mailButton:hover {
+        transform: scale(1.09);
+    }
+
+    a,
+    .mailButton {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        vertical-align: middle;
+        text-decoration: none;
+        color: #000000;
+        transition: 0.5s all;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 30px;
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 0.7));
+        padding: 0.4 rem 0;
+    }
+
+    img {
+        height: 3rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: none;
+    }
 }
 
-.cnt {
-    width: 20vw;
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-self: center;
-    align-items: center;
-}
+@media (min-width: 500px) {
+    .contactos {
+        width: 100vw;
+        height: 100vh;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 
-.resumee {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
-}
+    .cnt {
+        width: 20vw;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-self: center;
+        align-items: center;
+    }
 
-.resumee a {
-    width: fit-content;
-    padding: 1rem;
-}
+    .resumee {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
 
-button {
-    width: 14vw;
-    height: 10vh;
-    border: 1px solid white;
-    border-radius: 30px;
-    background: rgba(180, 130, 255, 0.1);
-}
+    .resumee a {
+        width: fit-content;
+        padding: 1rem;
+    }
 
-a:hover,
-.mailButton:hover {
-    transform: scale(1.09);
-}
+    button {
+        width: 14vw;
+        height: 10vh;
+        border: 1px solid white;
+        border-radius: 30px;
+        background: rgba(180, 130, 255, 0.1);
+    }
 
-a,
-.mailButton {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    vertical-align: middle;
-    text-decoration: none;
-    color: #000000;
-    transition: 0.5s all;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 30px;
-    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 0.7));
-    padding: 1rem 0;
-}
+    a:hover,
+    .mailButton:hover {
+        transform: scale(1.09);
+    }
 
-img {
-    height: 3rem;
-}
+    a,
+    .mailButton {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        vertical-align: middle;
+        text-decoration: none;
+        color: #000000;
+        transition: 0.5s all;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 30px;
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 0.7));
+        padding: 1rem 0;
+    }
 
-h1 {
-    font-size: 3.5rem;
-    background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: none;
+    img {
+        height: 3rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        background: linear-gradient(to right, rgba(130, 255, 136, 0.7), rgba(243, 255, 130, 1));
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background-clip: none;
+    }
 }
